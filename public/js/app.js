@@ -32,13 +32,6 @@ myTasks.config(['$routeProvider',
     }
 ]);
 
-// Store the current page for back navigation
-myTasks.run(function($rootScope, $location) {
-    $rootScope.$on("$locationChangeStart", function(event, next, current) {
-        $rootScope.referrer = current;
-    });
-});
-
 // Filter function to check whether an object is empty
 myTasks.filter('isEmpty', function () {
     return function (obj) {

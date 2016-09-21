@@ -35,7 +35,7 @@ module.exports = {
                 }
             });
         } else {
-            serverResponse.status(401).send('User sesion invalidated');
+            serverResponse.status(401).send('User session invalidated');
         }
     },
     // Adds a comments for a given task. Task id is part of the url and comment is send at the request body. Here we 

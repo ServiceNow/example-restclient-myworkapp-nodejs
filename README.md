@@ -1,5 +1,10 @@
 # Example REST Client My Work App: Node.js
-This project contains source code for a [Node.js](https://nodejs.org/) web application that interacts with ServiceNow's [REST APIs](https://docs.servicenow.com/bundle/helsinki-servicenow-platform/page/integrate/inbound_rest/concept/c_RESTAPI.html) including a [Scripted REST API](https://docs.servicenow.com/bundle/helsinki-servicenow-platform/page/integrate/custom_web_services/concept/c_CustomWebServices.html). The simple use case is a "MyWork" application which displays a user's current tasks and allows comments to be added. This application demonstrates how to build the MyWork app using Node.js. To see the same use case implemented in iOS, see [Example REST Client My Work App: iOS](https://github.com/ServiceNow/example-restclient-myworkapp-ios).
+This project contains source code for a [Node.js](https://nodejs.org/) web application that interacts with ServiceNow's [REST APIs](https://docs.servicenow.com/bundle/helsinki-servicenow-platform/page/integrate/inbound_rest/concept/c_RESTAPI.html) including a [Scripted REST API](https://docs.servicenow.com/bundle/helsinki-servicenow-platform/page/integrate/custom_web_services/concept/c_CustomWebServices.html). The simple use case is a "MyWork" application which displays a user's current tasks and allows comments to be added. This application demonstrates how to build the MyWork app using Node.js.
+
+## Flavors of MyWork Application
+* [Example REST Client My Work App: Android](https://github.com/ServiceNow/example-restclient-myworkapp-android-beta) : The "MyWork" application implemented using Android.
+* [Example REST Client My Work App: Node.js](this repository) : The "MyWork" application implemented in Node JS.
+* [Example REST Client My Work App: iOS](https://github.com/ServiceNow/example-restclient-myworkapp-ios): The "MyWork" application implemented in iOS.
 
 ## Architecture
 Here is an overview of the MyWork application architecture. Note both this Node.js application and the iOS application are represented in the diagram.
